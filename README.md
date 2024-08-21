@@ -25,7 +25,7 @@
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
 - **Setting up a new repository on GitHub**
-## Create a new repository:
+  Create a new repository:
   - Log into your GitHub account
   - Click the "+" icon in the top right corner
   - Select "New repository"
