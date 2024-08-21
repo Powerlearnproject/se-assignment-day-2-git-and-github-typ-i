@@ -1,7 +1,10 @@
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
 
-- **something:** java, python, C
+- **something:**
+  - java
+  - python
+  - C
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
