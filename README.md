@@ -2,7 +2,11 @@
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
 
 - **Funamental concepts of version control:**
-  - ##Repositories
+  - Repositories: A repository is a central location where the entireprojects' files and their version history are stored. It serves as the master copy of the project.
+  - Commits: A commit is a snapshot of the files at a specific point in time. Each commit records the changes made to the files, along with a commit message that describes the changes made.
+  - Branches: Branches allow developers to work on different features or bug fixes simultaneously without affecting the main codebase. Developers can create new branches, work on them independently, and then merge them back into the main branch while choosing which files to keep or remove from other branches when the work is complete.
+  - Merging: It is the process of combining changes from one branch into another. This is crutial when multiple developers are working on the same project, as it alllows them to integrate their work seamlessly.
+  - Versioning: Version control systems assign unique identifiers(usually commit hashes or tags) to each commit, allowing developers to easilytrack the history of changes and revert to previous versions if needed.
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
