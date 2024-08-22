@@ -294,7 +294,7 @@ git commit -m "Your commit message"
  
 - **How Pull Requests Facilitate Code Review and Collaboration**
   - `Visibility`: All team members can see proposed changes and contribute to the discussion.
-  - `Automated Checks`: GitHub can run automated tests and checks on PullRequests
+  - `Automated Checks`: GitHub can run automated tests and checks on Pull Requests
   - `Contextual Comments`: Reviewers can comment on specific lines of code
   - `Iterative Improvement`: Developers can update PRs based on feedback, fostering collaborative refinement
   - `Knowledge Sharing`: PRs serve as a learning tool, allowing team members to understand and discuss different parts of the codebase.
@@ -322,9 +322,6 @@ git commit -m "Your commit message"
   - Fill in the Pull Request title and description
  
 - **Code Review Process**
-  - 
-
-- ****
   - Assignees review the code
   - Discussions occur through comments
   - Automated checks run (if configured)
