@@ -168,7 +168,7 @@ Decision: Select appropriate options based on your project needs
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
 - **Steps to making the first commit to a GitHub repository**
-- **Set up Git locally**
+- **Set up Git locally:**
   - Install Git on your computer if not already installed
   - Configure your name and email in Git
 
@@ -180,7 +180,7 @@ Decision: Select appropriate options based on your project needs
   git clone <repository-url>
 
 - **Navigate to the repository:**
-  - you can list to check the cloned repository by running the following command 
+  - You can list to check the cloned repository by running the following command 
  
   ```bash
   ls
@@ -190,13 +190,32 @@ Decision: Select appropriate options based on your project needs
   ```bash
   cd <repository-name>
 
-- ****
+- **Create or modify files:**
+  - Add new files or edit existing ones in the repository
 
-- ****
+- **Stage changes:**
+  - Run the command below to stage specific files
+  ```bash
+  git add <filename>
+  ```
+  or
+  ```bash
+  git add.
+  ```
+  to stage all changes in the current directory
 
-- ****
+- **Check status (optional):**
+  - Use the command
+  ```bash
+  git status
+  ```
+  to verify staged changes
 
-- ****
+- **Commit changes:**
+- Run the command and replace "Your commit message" with words that describe the changes made to the staged files
+```bash
+git commit -m "Your commit message"
+```
 
 - **Push changes to GitHub:**
   - Use the following command to push your changes to GitHub (replace `<branch-name>` with your branch name, usually `main` or `master`):
