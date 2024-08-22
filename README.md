@@ -129,7 +129,7 @@ Decision: Select appropriate options based on your project needs
   - Both can be protected with branch protection rules
  
 - **Contrast (Differences):**
-  - Visibility: Public repos are visible to everyone, while private repos are only visible to invited collaborators
+  - `Visibility`: Public repos are visible to everyone, while private repos are only visible to invited collaborators
   - Discoverability: Public repos appear in GitHub search results, private repos do not
   - Forking: Anyone can fork a public repo, but only organization members can fork private repos
   - Licensing: Public repos typically require a clear open-source license, private repos may not
@@ -205,7 +205,7 @@ Decision: Select appropriate options based on your project needs
   ```
   or
   ```bash
-  git add.
+  git add .
   ```
   to stage all changes in the current directory
 
