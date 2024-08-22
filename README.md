@@ -169,10 +169,26 @@ Decision: Select appropriate options based on your project needs
 
 - **Steps to making the first commit to a GitHub repository**
 - **Set up Git locally**
+  - Install Git on your computer if not already installed
+  - Configure your name and email in Git
 
-- ****
+- **Clone the repository:**
+  - Copy the repository URL from GitHub
+  - Use the following command in your terminal to clone remote repository to your local machine
+    
+  ```bash
+  git clone <repository-url>
 
-- ****
+- **Navigate to the repository:**
+  - you can list to check the cloned repository by running the following command 
+ 
+  ```bash
+  ls
+  ```
+  - Run the command below to enter the directory
+ 
+  ```bash
+  cd <repository-name>
 
 - ****
 
@@ -183,7 +199,7 @@ Decision: Select appropriate options based on your project needs
 - ****
 
 - **Push changes to GitHub:**
-  - Use the following command to push your changes (replace `<branch-name>` with your branch name, usually `main` or `master`):
+  - Use the following command to push your changes to GitHub (replace `<branch-name>` with your branch name, usually `main` or `master`):
 
   ```bash
   git push origin <branch-name>
