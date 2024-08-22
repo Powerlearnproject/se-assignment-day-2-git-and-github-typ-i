@@ -185,13 +185,18 @@ Decision: Select appropriate options based on your project needs
   ```bash
   ls
   ```
-  - Run the command below to enter the directory
+  - Run this command to enter the directory and replace repository name with the actual name of the repository as indicated on GitHub
  
   ```bash
   cd <repository-name>
 
 - **Create or modify files:**
   - Add new files or edit existing ones in the repository
+  - Use the `touch` command to create a new file, it can have extensions such as `name.py`, `name.js`, `name.css`, `name.html`, `name.c` e.t.c.
+  ```bash
+  touch filename.file-extension
+  ```
+  replace `filename` with desired name of the file and `file-extension` with the required file-type respectively
 
 - **Stage changes:**
   - Run the command below to stage specific files
