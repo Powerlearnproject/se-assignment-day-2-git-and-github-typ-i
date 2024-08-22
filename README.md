@@ -183,7 +183,10 @@ Decision: Select appropriate options based on your project needs
 - ****
 
 - **Push changes to GitHub:**
-  - Use git push origin <branch-name> (usually main or master)
+  - Use the following command to push your changes (replace `<branch-name>` with your branch name, usually `main` or `master`):
+
+  ```bash
+  git push origin <branch-name>
 
 - **Verify on GitHub:**
   - Check the repository on GitHub or through GitLens extension in VSCode to see your committed changes
